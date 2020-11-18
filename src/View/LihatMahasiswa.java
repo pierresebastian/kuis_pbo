@@ -9,6 +9,6 @@ package View;
  *
  * @author Aspire
  */
-public class Main {
-    //testinggg
+public class LihatMahasiswa {
+     
 }

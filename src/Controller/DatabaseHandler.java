@@ -6,15 +6,16 @@
 package Controller;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.util.TimeZone;
 import javax.swing.JOptionPane;
 /**
  *
  * @author Aspire
- */
+ */ 
 public class DatabaseHandler {
     public Connection con;
     private String driver = "com.mysql.cj.jdbc.Driver";
-    private String url = "jdbc:mysql://localhost/db_kuispbo";
+    private String url = "jdbc:mysql://localhost/db_kuispbopierre?serverTimezone=" + TimeZone.getDefault().getID();
     private String username = "root";
     private String password = "";
 
